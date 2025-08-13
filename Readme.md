@@ -1,5 +1,22 @@
 # Documentação do Projeto projeto-ada-ml
 
+# Estrutura do Projeto
+```
+src/
+├── main/
+│   ├── java/
+        ├── br/
+        │   └── com/
+        │       └── imdbcatalogo/
+        │           ├── domain/        # Entidades e classes de modelo (Filme, Ator, Diretor, Pessoa)
+        │           ├── repository/    # Persistência e DAOs (FilmeDAO, PessoaDAO, etc.)
+        │           ├── service/       # Regras de negócio (FilmeService, PessoaService, etc.)
+        │           ├── controller/    # Camada de controle (pode ser CLI, REST, ou GUI)
+        │           └── utils/          # Utilitários (conexão com banco, helpers, etc.)
+        └── App.java                  # Classe principal para execução do projeto
+
+```
+
 ## 1. Visão Geral
 
 O **projeto-ada-ml** é um sistema de catálogo de filmes inspirado no IMDB, desenvolvido em Java. O sistema permite o gerenciamento de filmes, atores e diretores através de uma interface de linha de comando, com dados armazenados em memória.
