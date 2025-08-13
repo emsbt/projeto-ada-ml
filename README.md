@@ -145,5 +145,3 @@ O sistema implementa validações em diversos níveis:
 - Logging para erros severos
 
 ---
-
-Nota: Esta documentação foi baseada nos arquivos disponíveis no repositório. O código pode conter mais funcionalidades não cobertas nesta análise. Para uma visualização completa do projeto, acesse [github.com/emsbt/projeto-ada-ml](https://github.com/emsbt/projeto-ada-ml).
