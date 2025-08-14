@@ -12,8 +12,8 @@ src/
         │           ├── repository/    # Persistência e DAOs (FilmeDAO, PessoaDAO, etc.)
         │           ├── service/       # Regras de negócio (FilmeService, PessoaService, etc.)
         │           ├── controller/    # Camada de controle (pode ser CLI, REST, ou GUI)
-        │           └── utils/          # Utilitários (conexão com banco, helpers, etc.)
-        └── App.java                  # Classe principal para execução do projeto
+        │           └── utils/         # Utilitários (conexão com banco, helpers, etc.)
+        └── App.java                   # Classe principal para execução do projeto
 
 ```
 
